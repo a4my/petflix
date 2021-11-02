@@ -58,7 +58,6 @@ body {
 .navbar-container {
   display: flex;
   align-items: center;
-  /* background-color: var(--white); */
   padding: 0 5rem;
   height: 100%;
 }
@@ -125,6 +124,7 @@ body {
   right: 0.1rem;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 1s ease;
 }
 
 .avatar {
@@ -299,4 +299,47 @@ body {
   color: lightgray;
   opacity: 0.5;
   cursor: pointer;
+}
+
+.container.active {
+  background-color: var(--white);
+}
+
+.movie-list-title.active {
+  color: var(--black);
+}
+
+.navbar-container.active {
+  background-color: var(--white);
+}
+
+.menu-list.active {
+  color: var(--black);
+}
+
+.profile-container.active {
+  color: var(--black);
+}
+
+.sidebar.active {
+  background-color: var(--white);
+}
+
+.left-menu-icon.active {
+  color: var(--black);
+}
+
+.toggle.active {
+  background-color: var(--black);
+}
+
+.toggle-ball.active {
+  background-color: var(--white);
+  transform: translateX(-20px);
+}
+
+@media only screen and (max-width: 940px) {
+  .menu-container {
+    display: none;
+  }
 }
