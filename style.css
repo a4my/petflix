@@ -53,6 +53,9 @@ body {
   width: 100%;
   height: 5rem;
   background-color: var(--black);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar-container {
@@ -83,6 +86,7 @@ body {
 
 .menu-list-item {
   margin-right: 3rem;
+  cursor: pointer;
 }
 
 .menu-list-item.active {
@@ -95,10 +99,17 @@ body {
   align-items: center;
   color: var(--white);
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .profile-text-container {
   margin: 0 2rem;
+}
+
+.profile-icon-container i {
+  font-size: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
 }
 
 .toggle {
@@ -130,7 +141,7 @@ body {
 .avatar {
   width: 3rem;
   height: 3rem;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 .sidebar {
@@ -150,6 +161,7 @@ body {
   color: var(--white);
   font-size: 2rem;
   margin-bottom: 4rem;
+  cursor: pointer;
 }
 
 .container {
@@ -160,10 +172,11 @@ body {
 
 .content-container {
   margin-left: 5rem;
+  margin-top: 5rem;
 }
 
 .featured-content {
-  height: 50vh;
+  height: 70vh;
   padding: 5rem;
   display: flex;
   flex-direction: column;
