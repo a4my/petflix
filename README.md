@@ -11,7 +11,7 @@ This project has parts that are mainly hard-coded and you cannot add watch any m
 ![site image](https://i.imgur.com/uPHnjBI.jpg)
 
 ## What I used 🔨
-My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavScript.
+My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavaScript.
 
 ## Responsiveness 📱
 This project is responsive on any devices.
